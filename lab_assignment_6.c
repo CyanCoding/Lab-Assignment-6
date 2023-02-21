@@ -41,7 +41,7 @@ int main(void) {
 	int index;
 	int* numArray = NULL;
 	int countOfNums;
-	FILE* inFile = fopen("C:\\Users\\camde\\OneDrive\\Desktop\\Computer Science 1\\Lab\\Lab 6\\input.txt","r");
+	FILE* inFile = fopen("input.txt","r");
 
 	fscanf(inFile, " %d\n", &numInputs);
 	
